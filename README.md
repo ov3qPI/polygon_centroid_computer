@@ -17,7 +17,7 @@ pip install shapely fastkml pygeoif
 
 To run the script, use the following command:
 ```sh
-./g_earth_polygon_centroid_computer.py <path_to_kml_file>
+./polygon_centroid_computer.py <path_to_kml_file>
 ```
 
 ### Output
@@ -26,7 +26,7 @@ The script prints the centroid coordinates `(x, y)` of the first polygon found i
 
 ## Example
 ```sh
-./g_earth_polygon_centroid_computer.py example.kml
+./polygon_centroid_computer.py example.kml
 Centroid: (longitude, latitude)
 ```
 
